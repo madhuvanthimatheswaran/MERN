@@ -1,4 +1,4 @@
-import '../../assets/css/NavBar.css';
+import '../../assets/CSS/NavBar.css';
 import { Link } from 'react-router-dom';
 var NavBar=()=>
 {
@@ -15,6 +15,8 @@ var NavBar=()=>
                     <li><Link to="/useReftask">UseReftask</Link></li>
                     <li><Link to="/useContext">UseContext</Link></li>
                     <li><Link to="/useMemo">UseMemo</Link></li>
+                    <li><Link to="/SignUp">SignUp</Link></li>
+                    <li><Link to="/Login">Login</Link></li>
                 </ul>
             </nav>
         </header>
