@@ -1,0 +1,12 @@
+.box-model {
+    background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(253, 192, 248);
+}
+
+#idSEg{
+    color: rgb(232, 89, 12);
+    text-align: center;
+}
