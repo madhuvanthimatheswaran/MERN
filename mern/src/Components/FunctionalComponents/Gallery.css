@@ -1,0 +1,32 @@
+.btn {
+    margin: 5px; /* Reduced spacing between buttons */
+    padding: 5px; /* Smaller padding for compact buttons */
+    font-size: 12px; /* Smaller text size */
+    cursor: pointer;
+    border: none;
+    border-radius: 3px; /* Slightly smaller border-radius */
+    width: 100px; /* Set a fixed width for all buttons */
+    transition: all 0.3s ease;
+    text-align: center; /* Ensure text stays centered */
+}
+
+.btn-increment {
+    background-color: rgb(70, 105, 247);
+    color: white;
+}
+
+.btn-decrement {
+    background-color: rgb(70, 105, 247);
+    color: white;
+}
+
+
+
+.btn-reset {
+    background-color: rgb(70, 105, 247);
+    color: black;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
