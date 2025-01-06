@@ -1,44 +1,32 @@
+/* Footer styles */
 .footer {
-  background-color: #f0f0f0;
+  background-color: #333;  /* Dark background for footer */
+  color: white;
+  padding: 30px 20px;
+  margin-top: 0;  /* Ensures no space between footer and content */
   text-align: center;
-  padding: 20px;
-  border-radius: 20px;
-  background-color: rgb(144, 237, 246);
+}
 
-  }
-  
-  .footer h2 {
-    margin-bottom: 15px;
-  }
-  
-  .signup-form {
-    display: inline-block;
-    text-align: left;
-    border-radius: 20px;
-  }
-  
-  .input-field {
-    display: block;
-    margin: 10px 0;
-    padding: 10px;
-    width: 100%;
-    max-width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-  }
-  
-  .submit-button {
-    display: block;
-    margin: 10px 0;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .submit-button:hover {
-    background-color: #0056b3;
-  }
-  
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}

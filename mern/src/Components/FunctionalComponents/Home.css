@@ -1,12 +1,23 @@
-.box-model {
-    background-color: #f0f0f0;
+/* NavBar styles */
+.navbar {
+  background-color: #f4f4f4;  /* Light background for a clear separation */
+  padding: 20px 0;
   text-align: center;
-  padding: 20px;
-  border-radius: 20px;
-  background-color: rgb(253, 192, 248);
 }
 
-#idSEg{
-    color: rgb(232, 89, 12);
-    text-align: center;
+h1 {
+  font-size: 30px;
+  color: blue;
+  text-decoration: underline;
+}
+
+#department {
+  font-size: 20px;
+  color: green;
+}
+
+.welcome-message {
+  font-size: 18px;
+  margin-top: 10px;
+  padding-bottom: 20px; /* Makes sure there’s space for the footer */
 }
