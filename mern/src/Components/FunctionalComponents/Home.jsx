@@ -1,4 +1,4 @@
-import '../../assets/css/Home.css';
+import './Home.css';
 
 var NavBar = () => {
     var styling = {
