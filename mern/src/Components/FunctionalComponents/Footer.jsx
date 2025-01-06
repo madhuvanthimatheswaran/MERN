@@ -1,4 +1,4 @@
-import '../../assets/css/Footer.css';
+import './footer.css'
 
 const Footer = () => {
   const handleSubmit = (e) => {
